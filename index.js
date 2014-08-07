@@ -1,4 +1,3 @@
-var Bcrypt = require('bcrypt');
 var Hapi = require('hapi');
 var Good = require('good');
 var Boom = require('boom');
