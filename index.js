@@ -9,7 +9,7 @@ var Game = require('./handler/game');
 
 var Users = require('./db/users');
 
-var server = new Hapi.Server(config.server.port || process.env.PORT);
+var server = new Hapi.Server(process.env.PORT || config.server.port);
 
 // Register logging
 server.pack.register({
