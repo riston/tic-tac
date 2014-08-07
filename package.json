@@ -1,0 +1,43 @@
+{
+  "name": "tic-tac",
+  "description": "",
+  "private": "true",
+  "version": "0.0.1",
+  "directories": {
+    "lib": "./lib",
+    "bin": "./bin",
+    "spec": "./spec"
+  },
+  "main": "./lib/index.js",
+  "author": "Risto Novik <risto.novik@gmail.com>",
+  "engines": [
+    "node"
+  ],
+  "scripts": {
+    "test": "mocha tests/"
+  },
+  "keywords": [
+    "game",
+    "API",
+    "tic-tac"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/bcoe/node-mocha-skeleton.git"
+  },
+  "dependencies": {
+    "bluebird": "^2.2.2",
+    "boom": "^2.4.2",
+    "config": "^1.0.2",
+    "good": "^2.2.0",
+    "hapi": "^6.2.1",
+    "hawk": "^2.2.2",
+    "hoek": "^2.3.0",
+    "joi": "^4.6.1",
+    "mocha": ">=1.7.4",
+    "mongodb": "^1.4.7"
+  },
+  "devDependencies": {
+    "mocha": "^1.21.3"
+  }
+}
